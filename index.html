@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar Tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Belajar Tailwind</title>
     <script>
         tailwind.config = {
           theme: {
             extends: {
               spacing: {
                     13: '3.25rem',
+              },
+              fontFamily: {
+                inter: ['Inter'],
               },
             },
           },
@@ -35,7 +41,7 @@
       <div class="w-32 h-32">Kotak</div>
     </section>
 
-    <section class="mb-96">
+    <section class="mb-96 font-inter">
       <h2>Belajar Mengenai Typography pada TailwindCSS</h2>
       <div class="mb-4">By Dani Ramadhan, 17 September</div>
       <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quidem, incidunt ducimus, praesentium neque blanditiis consectetur amet, reiciendis facilis hic inventore recusandae perferendis voluptate repudiandae iusto. Dolores, alias deserunt non, asperiores atque, excepturi doloremque earum praesentium quam reprehenderit voluptatem molestias numquam veniam. Eos, cupiditate dignissimos? Tenetur ex vel repudiandae. Quis.</p>
